@@ -25,9 +25,9 @@ func Decode(i int64) string {
 	var stringDecode string = ""
 
 	for i > 0 {
-		reminder := i % int64(baseLen)
+		remainder := i % int64(baseLen)
 		i = i / int64(baseLen)
-		stringDecode += base[reminder]
+		stringDecode += base[remainder]
 	}
 	return stringDecode
 }
