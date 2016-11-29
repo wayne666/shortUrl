@@ -14,7 +14,7 @@
 
 	import (
 		"fmt"			
-		"shortUrl"
+		"github.com/WayneZhouChina/shortUrl"
 	)
 
 	func main() {
