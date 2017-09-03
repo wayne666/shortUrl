@@ -6,7 +6,7 @@
 
 ## Installation
 
-	$ go get github.com/WayneZhouChina/shortUrl
+	$ go get github.com/wayne666/shortUrl
 
 ## Usage
 
@@ -14,7 +14,7 @@
 
 	import (
 		"fmt"			
-		"github.com/WayneZhouChina/shortUrl"
+		"github.com/wayne666/shortUrl"
 	)
 
 	func main() {
